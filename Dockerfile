@@ -1,4 +1,12 @@
 FROM openjdk:11-slim-buster
+
 ARG JAR_FILE=target/*.jar
 COPY ${JAR_FILE} app.jar
+
+ARG CLIENT_ID_VALUE \
+CLIENT_SECRET_VALUE
+
+ENV CLIENT_ID=$CLIENT_ID_VALUE \
+CLIENT_SECRET=$CLIENT_SECRET_VALUE
+
 ENTRYPOINT ["java","-jar","/app.jar"]
