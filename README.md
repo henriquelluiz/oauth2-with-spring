@@ -16,6 +16,3 @@ chmod +x runApp.sh
 3. Manage Docker as a non-root user. [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
 
 *That's it* 🥳
-
-[My Email](henrique-developer@proton.me)
-[My Linkedin](linkedin.com/in/heenluy)
