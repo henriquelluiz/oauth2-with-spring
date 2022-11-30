@@ -17,5 +17,5 @@ chmod +x runApp.sh
 
 *That's it* 🥳
 
-<heenluy@gmail.com>
-<linkedin.com/in/heenluy>
+[My Email](henrique-developer@proton.me)
+[My Linkedin](linkedin.com/in/heenluy)
